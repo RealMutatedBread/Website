@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CW Reviews | Home</title>
+    <meta name="Viewport" content="width=device-width", initial-scale="1.0" charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/w3.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--navigation-->
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<!--collapsale menu trigger-->
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-left">
+					<div class="dropdown">
+                    <button class="dropbtn">Xbox</button>
+                    <div class="dropdown-content">
+                    <a href="xbox_360.html">Xbox 360</a>
+                    <a href="xbox_one.html">Xbox One</a>
+                    </div>
+                </div>
+					<div class="dropdown">
+                    <button class="dropbtn">Playstation</button>
+                    <div class="dropdown-content">
+                    <a href="playstation_vita.html">Playstation Vita</a>
+                    <a href="playstation_3.html">Playstation 3</a>
+                    <a href="playstation_4.html">Playstation 4</a>
+                    </div>
+                </div>
+                    </ul>
+                <ul class="nav navbar-nav navbar-right">
+					<div class="dropdown">
+                    <button class="dropbtn">Mobile</button>
+                    <div class="dropdown-content">
+                    <a href="android.html">Android</a>
+                    <a href="ios.html">Ios</a>
+                    <a href="windows.html">Windows</a>
+                    </div>
+                </div>
+<ul class="nav navbar-nav navbar-right">
+        <div class="w3-container">
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black w3-large">Login</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-8 w3-animate-zoom" style="max-width:600px">
+
+      <div class="w3-center"><br>
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+        <img src="assets/cwlogo.png" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
+      </div>
+
+      <form class="w3-container" action="/index.html">
+        <div class="w3-section">
+          <label><b>Username</b></label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
+          <label><b>Password</b></label>
+          <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="psw" required>
+          <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
+          <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
+        </div>
+      </form>
+
+      <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+        <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+        <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
+      </div>
+
+    </div>
+  </div>
+</div>
+      </ul>
+				</ul>
+			</div>
+		</div>
+	</div>
+    
+            <div class="panel-header">
+                <h3><u>Featured</u></h3>
+            </div>
+<!--grid system-->
+	<div class="container">
+		<div class="row">
+		<!--Article 1-->
+			<div class="col-md-4">
+				<div class="thumbnail" id="thumbnail">
+				  	<img src="assets/mobile.jpeg" alt="Mobile" class="img-rounded" href="#">
+				  	<div class="caption">
+						<h3>Samsung S7 Edge - Weekly Review</h3>
+                        <p2>The Samsung S7 is the latest and greatest of phones created by Samsung.</p2> <p2>It's specifications are better than it's predecessors with a 32Gb memory &amp; a CPU speed of 1.6Ghz, this phone packs quite the punch...</p2>
+                        <div>
+                            <div class="left"> Written By:<a href="#"> PotatoLover9000</a></div>
+                            <div class="right"><a href="#">Read more</a></div>
+                        </div>
+				  	</div>
+				</div>
+			</div>
+		<!--Article 2-->
+			<div class="col-md-4">
+				<div class="thumbnail" id="thumbnail">
+				  	<img src="assets/playstation.jpeg" alt="Playstation" class="img-rounded"  href="#">
+				  	<div class="caption">
+						<h3>Tips &amp; Tricks To Improve Your Playstation Experience</h3>
+						<p2> There are a few things that you can do with your Playstation 3, to better your gameplay experience or even help you in real life</p2> <p2> You replace your Playstation's dusty old hard drive with an SSD to give your console a nice little nitro...</p2>
+                        <div>
+                            <div class="left"> Written By:<a href="#"> PotatoLover9000</a></div>
+                            <div class="right"><a href="#">Read more</a></div>
+                        </div>
+				  	</div>
+				</div>
+			</div>
+		<!--Article 3-->
+			<div class="col-md-4">
+				<div class="thumbnail" id="thumbnail">
+				  	<img src="assets/xbox.jpeg" alt="Xbox" class="img-rounded"  href="#">
+				  	<div class="caption">
+						<h3>Xbox One - Console Review</h3>
+						<p2>Having pre-ordered the Xbox One, I had to send it back to get it repaired as it blew up when I switched it on. Despite this small malfunction I enjoy using the Xbox One but there are a few things I'd change.</p2> <p2> <li>1. User Interface - Overall the user interface isn't bad, but it just needs a little cleaning up. Ther...</li>
+                        </p2>
+                        <div>
+                            <div class="left"> Written By:<a href="#"> PotatoLover9000</a></div>
+                            <div class="right"><a href="#">Read more</a></div>
+                        </div>
+				  	</div>
+				</div>
+			</div>
+		</div>
+	</div>
+            <div class="panel-header">
+                <h3><u> Announcements! </u></h3>
+            </div>
+    <!--Announcement-->
+	<div class="container" class="box">
+		<div class="row">
+		<!--Article 1-->
+			<div class="col-md-12">
+				<div class="thumbnail" id="thumbnail">
+				  	<div class="caption">
+                    
+                        <p2 style="font-size: 24px; text-align:center:"><b>Please read the <a href="#">"FAQ &amp; Rules"</a> before submitting anything to the site.
+                            If the rules are broken the post will be taken down as soon as possible.</b></p2>
+                        <hr>
+                        <li style="font-size: 16px;">Please don't report a post for wrong reasons, if we find out that a user has reported a post for the wrong reasons they will receive a warning</li>
+                        <br>
+                        <li style="font-size: 16px;"> We are currently looking for staff members, please email <a href="#"> PotatoLover9000</a> if you wish to apply or need more information.</li>
+                        <br>
+                        <li style="font-size: 16px;">Congratulations to <a href="#">Random User</a> for becoming a staff member, may they live long and prosper.</li>
+                        
+                        <!--To be put in Faq & Rules    
+                        <p>Each member has a max of 3 warnings, each warning removes priviledges from your account.</p>
+                        
+                        <p><b>Warning 1</b>
+                            <ul>
+                            <li> Removes ability to comment to posts.</li>
+                            <li> You are limited to one post a day for 7 days.</li>
+                        </ul>
+                        
+                        <b>Warning 2</b>
+                        <ul>
+                            <li> Account will be suspended for 7 days</li>
+                            <li> Once the 7 days have ended you won't be able comment or post to any posts for 2 days.</li>
+                        </ul>
+                        <b>Warning 3</b>
+                        <ul>
+                        <li> Your account will be suspended for 1 month, during this time your account will be reviewed by Admins and a vote will be decided if you deserve to be banned.</li>
+                            </ul>
+                            <b> What happens if I don't get banned?</b>
+                            <ul>
+                                <li> You will given the tag "Reviewed", which allows people to know that you have recieved 3 warnings but were not banned.</li>
+                                <li> You will be restricted to 1 post per week, this will last 2 months.</li>
+                                <li> You will be allowed to comment and react to any post.</li>
+                        
+                        </ul>
+                        </p>     -->
+				  	</div>
+				</div>
+			</div>
+        </div>
+    </div>
+    <!--Announcement END-->
+    
+<!--footer-->
+<div class="navbar navbar-inverse navbar-fixed-bottom">
+		<div class="container" class="box">
+			<p class="navbar-text navbar-left">Site Built By A Random Teen Named Calvin Wakefield.</p>
+            <p class="navbar-text navbar-right">All images were taken from Pexels or created by myself.</p>
+		</div>
+	</div>	
+</body>
+</html>
